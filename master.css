@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: hsl(217, 54%, 11%);
+}
+.parent {
+  position: relative;
+  width: 20%;
+  height: 40rem;
+  background-color:hsl(216, 50%, 16%);
+  margin: 8rem auto;
+  border-radius: 20px;
+  overflow-wrap: break-word;
+word-wrap: break-word;
+transition-duration: 1s;
+}
+.nft {
+    width: 100%;
+    height: 375px;
+    padding: 20px;
+    border-radius: 50px;
+}
+.h2 {
+  position: absolute;
+  color: white;
+  margin-left: 28px;
+  top: 52%;
+  font-family: 'Jomhuria', cursive;
+  font-weight: 200;
+  font-size: 40px;
+}
+.our {
+  width: 345px;
+  position: absolute;
+  top: 60%;
+  margin-left: 28px;
+  font-family: 'Jomhuria';
+  font-size: 32px;
+  font-weight: 100;
+  color: gray;
+  overflow-wrap:break-word;
+}
+.eth {
+  position: absolute;
+  top: 80%;
+  left: 7%;
+}
+.ethtext {
+  position: absolute;
+  top: 76.7%;
+  left: 12.6%;
+  color: cyan;
+  font-family: monospace;
+  font-size: 20px;
+} 
+.clock {
+  position: absolute;
+  top: 80.5%;
+  left: 62.5%;
+}
+.days {
+  position: absolute;
+  top: 78.2%;
+  left: 70%;
+  color: gray;
+  font-family: monospace;
+}
+hr {
+  position: absolute;
+  color: yellow;
+  width: 300px;
+  margin-left: 6%;
+  top: 87.5%;
+}
+.creator {
+  position: absolute;
+  width: 40px;
+  top: 90.5%;
+  left: 5%;
+}
+.the-creator {
+  position: absolute;
+  color: gray;
+  font-family: monospace;
+  top: 90%;
+  left: 20%;
+}
+span {
+  color: white;
+}
+.parent:hover {
+  width: 390px;
+}
+span:hover {
+  color: cyan;
+  cursor: pointer;
+}
+
